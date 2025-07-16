@@ -3,7 +3,14 @@ name: iOS workflow
 on:
   push:
     branches: [ "main" ]
-
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+  issues: write
+  repository-projects: write
+  packages: write
+  
 jobs:
   # Build job
   build:
