@@ -54,7 +54,7 @@ jobs:
       - name: Flutter get
         uses: subosito/flutter-action@v1
         with:
-          flutter-version: '2.10.1'
+          flutter-version: '3.32.0'
 
       # Install project's dependencies
       - run: flutter pub get
@@ -86,7 +86,7 @@ jobs:
       #   run: | 
       #     mkdir -p ~/private_keys
       #     echo -n "$PRIVATE_API_KEY_BASE64" | base64 --decode --output ~/private_keys/AuthKey_$API_KEY.p8
-	  # 
+      # 
       # # Upload app to TestFlight 
       # - name: Upload app to TestFlight
       #   env:
