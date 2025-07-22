@@ -1,4 +1,4 @@
-package com.example.simple_codec
+package com.tuannt.simplecodec
 
 import io.flutter.embedding.android.FlutterActivity
 
